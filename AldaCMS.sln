@@ -1,8 +1,28 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alda.Domain", "Alda.Domain\Alda.Domain.csproj", "{F2EBA389-37DC-495D-8295-2D8FC1B20C7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alda.Domain.Test", "Alda.Domain.Test\Alda.Domain.Test.csproj", "{5A98D337-A637-471C-AEAC-32E18627A934}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alda.UI", "Alda.UI\Alda.UI.csproj", "{5DEFAF35-B28A-4DAA-B085-28CE8D1B957C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2EBA389-37DC-495D-8295-2D8FC1B20C7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2EBA389-37DC-495D-8295-2D8FC1B20C7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2EBA389-37DC-495D-8295-2D8FC1B20C7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2EBA389-37DC-495D-8295-2D8FC1B20C7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A98D337-A637-471C-AEAC-32E18627A934}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A98D337-A637-471C-AEAC-32E18627A934}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A98D337-A637-471C-AEAC-32E18627A934}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A98D337-A637-471C-AEAC-32E18627A934}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DEFAF35-B28A-4DAA-B085-28CE8D1B957C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DEFAF35-B28A-4DAA-B085-28CE8D1B957C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DEFAF35-B28A-4DAA-B085-28CE8D1B957C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DEFAF35-B28A-4DAA-B085-28CE8D1B957C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
