@@ -1,0 +1,21 @@
+@page
+@model Alda.UI.Pages.ProductListing
+@{
+    ViewData["Title"] = "Product Listing";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+@foreach (var product in ProductListing.Products)
+{
+    <div style="border: 1px solid black; margin-top: 10px; margin-bottom: 10px; padding: 10px">
+        <p>Category: @product.Category.CategoryName</p>
+        <p>@product.Title</p>
+        <p>@product.Price</p>
+        
+        @foreach (var translation in product.Translations)
+        {
+            <p>@translation.Value (@translation.LanguageCode)</p>
+        }
+    </div>
+}

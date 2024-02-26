@@ -13,4 +13,8 @@
       </Content>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Alda.Domain\Alda.Domain.csproj" />
+    </ItemGroup>
+
 </Project>
